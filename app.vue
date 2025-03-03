@@ -1,5 +1,10 @@
+<!-- eslint-disable vue/html-self-closing -->
 <template>
-  <main class="h-svh grid place-items-center">
-    <Button>Hello World!</Button>
+  <AppHeader />
+
+  <main class="">
+    <HeroSection />
+    <AboutSection />
+    <SkillsSection />
   </main>
 </template>

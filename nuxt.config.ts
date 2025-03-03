@@ -9,6 +9,8 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@nuxtjs/tailwindcss',
     'shadcn-nuxt',
+    'nuxt-lucide-icons',
+    '@nuxt/image',
   ],
   shadcn: {
     /**
@@ -20,5 +22,8 @@ export default defineNuxtConfig({
      * @default "./components/ui"
      */
     componentDir: './components/ui',
+  },
+  imports: {
+    dirs: ['./components/svg'],
   },
 });
