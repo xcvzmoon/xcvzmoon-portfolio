@@ -1,9 +1,13 @@
 /** @type {import('tailwindcss').Config} */
+import { setupInspiraUI } from '@inspira-ui/plugins';
+
 import animate from 'tailwindcss-animate';
 
 export default {
   darkMode: ['class'],
-  content: [],
+  safelist: ['dark'],
+  prefix: '',
+  content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     extend: {
       fontFamily: {
@@ -59,5 +63,6 @@ export default {
       },
     },
   },
-  plugins: [animate],
+
+  plugins: [animate, setupInspiraUI],
 };
