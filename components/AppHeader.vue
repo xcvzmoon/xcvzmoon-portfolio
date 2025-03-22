@@ -17,6 +17,8 @@ const links = [
   },
 ];
 
+const { y } = useWindowScroll();
+
 const colorMode = useColorMode();
 
 const preferredColorModeIcon = computed(() =>
@@ -30,7 +32,12 @@ function toggleColorMode() {
 
 <template>
   <header
-    class="border-(--ui-border) bg-transparent border-b h-[calc(3.5rem+1px)] p-2"
+    :class="[
+      Math.round(y)
+        ? 'border-(--ui-border) bg-(--ui-bg)/80 backdrop-blur-[5px] backdrop-saturate-[180%]'
+        : 'border-transparent',
+      'border-b h-[calc(3.5rem+1px)] p-2 sticky top-0 left-0 z-10',
+    ]"
   >
     <div class="h-full mx-auto px-2 flex items-center justify-between">
       <div class="flex items-center gap-1">
