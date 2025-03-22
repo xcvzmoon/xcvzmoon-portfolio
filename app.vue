@@ -22,8 +22,11 @@ useHead({
 
 <template>
   <UApp>
-    <div class="bg-(--ui-bg) text-(--ui-text) h-svh font-mono">
+    <div class="bg-(--ui-bg) text-(--ui-text) min-h-svh font-mono">
       <AppHeader />
+      <HeroSection />
+
+      <section class="h-svh" />
     </div>
   </UApp>
 </template>
