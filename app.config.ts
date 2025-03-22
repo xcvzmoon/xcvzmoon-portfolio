@@ -11,6 +11,7 @@ export default defineAppConfig({
       slots: {
         base: 'font-semibold',
         leadingIcon: 'scale-80',
+        trailingIcon: 'scale-80',
       },
     },
   },
