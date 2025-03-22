@@ -22,18 +22,11 @@ useHead({
 
 <template>
   <UApp>
-    <div
-      bg="(--ui-bg)"
-      text="(--ui-text)"
-      class="h-svh font-mono grid place-items-center"
-    >
-      <UButton
-        label="Hello World!"
-        @click="
-          $colorMode.preference =
-            $colorMode.preference === 'dark' ? 'light' : 'dark'
-        "
-      />
+    <div class="bg-(--ui-bg) text-(--ui-text) min-h-svh font-mono">
+      <AppHeader />
+      <HeroSection />
+
+      <section class="h-svh" />
     </div>
   </UApp>
 </template>
