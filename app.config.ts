@@ -10,6 +10,7 @@ export default defineAppConfig({
       },
       slots: {
         base: 'font-semibold',
+        leadingIcon: 'scale-80',
       },
     },
   },
