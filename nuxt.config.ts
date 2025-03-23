@@ -11,5 +11,6 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@vueuse/nuxt',
     '@nuxtjs/color-mode',
+    '@nuxtjs/device',
   ],
 });

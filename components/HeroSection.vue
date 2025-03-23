@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/html-self-closing -->
 <template>
-  <section class="mt-4 flex flex-col items-center gap-4">
+  <section class="my-4 flex flex-col items-center gap-4">
     <h1 class="uppercase text-3xl font-bold">Mon Albert Gamil</h1>
 
     <div class="size-72 grid place-items-center relative">
