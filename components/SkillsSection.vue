@@ -13,10 +13,10 @@
       class="w-[100%] relative before:content-[''] before:bg-linear-to-r before:from-(--ui-bg) before:to-(--ui-bg)/0 before:blur-[4px] before:w-[20%] before:h-full before:absolute before:top-0 before:left-px before:z-10 after:content-[''] after:bg-linear-to-l after:from-(--ui-bg) after:to-(--ui-bg)/0 after:blur-[4px] after:w-[20%] after:h-full after:absolute after:top-0 after:right-px"
     >
       <div
-        class="group flex overflow-hidden p-2 [--duration:30s] [--gap:1rem] [gap:var(--gap)]"
+        class="group flex overflow-hidden p-2 [--duration:40s] [--gap:1rem] [gap:var(--gap)]"
       >
         <div
-          v-for="index in 4"
+          v-for="index in 5"
           :key="index"
           class="flex shrink-0 justify-around [gap:var(--gap)] animate-marquee"
         >
@@ -35,12 +35,9 @@
         class="group flex overflow-hidden p-2 [--duration:60s] [--gap:1rem] [gap:var(--gap)]"
       >
         <div
-          v-for="index in 4"
+          v-for="index in 5"
           :key="index"
-          class="flex shrink-0 justify-around [gap:var(--gap)] animate-marquee"
-          :style="{
-            animationDirection: 'reverse',
-          }"
+          class="flex shrink-0 justify-around [gap:var(--gap)] animate-marquee-reverse"
         >
           <IconsElectronIcon />
           <IconsExpressIcon />
@@ -54,10 +51,10 @@
       </div>
 
       <div
-        class="group flex overflow-hidden p-2 [--duration:40s] [--gap:1rem] [gap:var(--gap)]"
+        class="group flex overflow-hidden p-2 [--duration:50s] [--gap:1rem] [gap:var(--gap)]"
       >
         <div
-          v-for="index in 4"
+          v-for="index in 5"
           :key="index"
           class="flex shrink-0 justify-around [gap:var(--gap)] animate-marquee"
         >
@@ -73,12 +70,12 @@
       </div>
 
       <div
-        class="group flex overflow-hidden p-2 [--duration:25s] [--gap:1rem] [gap:var(--gap)]"
+        class="group flex overflow-hidden p-2 [--duration:30s] [--gap:1rem] [gap:var(--gap)]"
       >
         <div
-          v-for="index in 4"
+          v-for="index in 5"
           :key="index"
-          class="flex shrink-0 justify-around [gap:var(--gap)] animate-marquee"
+          class="flex shrink-0 justify-around [gap:var(--gap)] animate-marquee-reverse"
         >
           <IconsPostgresqlIcon />
           <IconsReactIcon />
@@ -183,8 +180,8 @@
   animation-direction: reverse;
 }
 
-.animate-marquee-vertical {
-  animation: marquee-vertical var(--duration) linear infinite;
+.animate-marquee-reverse {
+  animation: marquee-reverse var(--duration) linear infinite;
 }
 
 @keyframes marquee {
@@ -196,12 +193,12 @@
   }
 }
 
-@keyframes marquee-vertical {
+@keyframes marquee-reverse {
   from {
-    transform: translateY(0);
+    transform: translateX(0);
   }
   to {
-    transform: translateY(calc(-100% - var(--gap)));
+    transform: translateX(calc(-100% - var(--gap)));
   }
 }
 </style>
