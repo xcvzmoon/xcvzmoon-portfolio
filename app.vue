@@ -23,10 +23,11 @@ useHead({
 <template>
   <UApp>
     <div class="bg-(--ui-bg) text-(--ui-text) min-h-svh font-mono">
-      <AppHeader />
-      <HeroSection />
-
-      <section class="h-svh" />
+      <template v-if="true">
+        <AppHeader />
+        <HeroSection />
+        <SkillsSection />
+      </template>
     </div>
   </UApp>
 </template>
