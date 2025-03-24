@@ -42,21 +42,13 @@
       </h3>
     </div>
 
-    <div class="mt-3 flex flex-wrap gap-1">
-      <UButton
-        to="https://fzdxu6armo.ufs.sh/f/bxc3epjzeNdB65UecZiqwWEuHy4bNjg7kPVmoYQztSZsrLJF"
-        target="_blank"
-        label="Download CV"
-        icon="i-lucide-download"
-      />
-
-      <UButton
-        color="neutral"
-        variant="subtle"
-        label="Contact me"
-        trailing-icon="i-lucide-send"
-      />
-    </div>
+    <UButton
+      to="https://fzdxu6armo.ufs.sh/f/bxc3epjzeNdB65UecZiqwWEuHy4bNjg7kPVmoYQztSZsrLJF"
+      target="_blank"
+      label="Download my CV"
+      icon="i-lucide-download"
+      class="mt-3"
+    />
   </section>
 </template>
 
