@@ -28,6 +28,7 @@ useHead({
         <HeroSection />
         <SkillsSection />
         <ProjectsSection />
+        <AppFooter />
       </template>
     </div>
   </UApp>
