@@ -1,6 +1,10 @@
 <template>
   <section class="my-16 flex flex-col items-center justify-center">
-    <p class="uppercase font-bold text-4xl">Skills</p>
+    <p
+      class="bg-linear-to-bl from-amber-500 to-fuchsia-500 text-zinc-100 rounded-md px-4 py-2 uppercase font-bold text-4xl dark:from-amber-400 dark:to-fuchsia-400 dark:text-zinc-900"
+    >
+      Skills
+    </p>
 
     <p
       class="text-(--ui-text-muted) px-2 py-4 text-center text-sm text-balance"
@@ -13,10 +17,10 @@
       class="w-[100%] relative before:content-[''] before:bg-linear-to-r before:from-(--ui-bg) before:to-(--ui-bg)/0 before:blur-[4px] before:w-[20%] before:h-full before:absolute before:top-0 before:left-px before:z-10 after:content-[''] after:bg-linear-to-l after:from-(--ui-bg) after:to-(--ui-bg)/0 after:blur-[4px] after:w-[20%] after:h-full after:absolute after:top-0 after:right-px"
     >
       <div
-        class="group flex overflow-hidden p-2 [--duration:30s] [--gap:1rem] [gap:var(--gap)]"
+        class="group flex overflow-hidden p-2 [--duration:40s] [--gap:1rem] [gap:var(--gap)]"
       >
         <div
-          v-for="index in 4"
+          v-for="index in 5"
           :key="index"
           class="flex shrink-0 justify-around [gap:var(--gap)] animate-marquee"
         >
@@ -35,12 +39,9 @@
         class="group flex overflow-hidden p-2 [--duration:60s] [--gap:1rem] [gap:var(--gap)]"
       >
         <div
-          v-for="index in 4"
+          v-for="index in 5"
           :key="index"
-          class="flex shrink-0 justify-around [gap:var(--gap)] animate-marquee"
-          :style="{
-            animationDirection: 'reverse',
-          }"
+          class="flex shrink-0 justify-around [gap:var(--gap)] animate-marquee-reverse"
         >
           <IconsElectronIcon />
           <IconsExpressIcon />
@@ -54,10 +55,10 @@
       </div>
 
       <div
-        class="group flex overflow-hidden p-2 [--duration:40s] [--gap:1rem] [gap:var(--gap)]"
+        class="group flex overflow-hidden p-2 [--duration:50s] [--gap:1rem] [gap:var(--gap)]"
       >
         <div
-          v-for="index in 4"
+          v-for="index in 5"
           :key="index"
           class="flex shrink-0 justify-around [gap:var(--gap)] animate-marquee"
         >
@@ -73,12 +74,12 @@
       </div>
 
       <div
-        class="group flex overflow-hidden p-2 [--duration:25s] [--gap:1rem] [gap:var(--gap)]"
+        class="group flex overflow-hidden p-2 [--duration:30s] [--gap:1rem] [gap:var(--gap)]"
       >
         <div
-          v-for="index in 4"
+          v-for="index in 5"
           :key="index"
-          class="flex shrink-0 justify-around [gap:var(--gap)] animate-marquee"
+          class="flex shrink-0 justify-around [gap:var(--gap)] animate-marquee-reverse"
         >
           <IconsPostgresqlIcon />
           <IconsReactIcon />
@@ -98,9 +99,9 @@
         class="border-(--ui-border) bg-(--ui-border) border-x w-[90%] mx-auto flex flex-col gap-px"
       >
         <div class="bg-(--ui-bg) p-3 grid gap-2">
-          <span class="uppercase">Web Development</span>
+          <span class="text-(--ui-primary) uppercase">Web Development</span>
 
-          <p class="text-(--ui-text-muted) text-xs indent-5">
+          <p class="text-xs indent-5">
             I personally like
             <HighlightedSpan>javascript</HighlightedSpan>
             because I tend to work more on frontend tasks than backend, and it
@@ -108,7 +109,7 @@
             happens
           </p>
 
-          <p class="text-(--ui-text-muted) text-xs indent-5">
+          <p class="text-xs indent-5">
             I love using <HighlightedSpan>vue</HighlightedSpan> and
             <HighlightedSpan>nuxt</HighlightedSpan>
             and its my most used framework. I can also use
@@ -118,7 +119,7 @@
             for the frontend development
           </p>
 
-          <p class="text-(--ui-text-muted) text-xs indent-5">
+          <p class="text-xs indent-5">
             I typically use BaaS platforms like
             <HighlightedSpan>Firebase</HighlightedSpan>,
             <HighlightedSpan>Supabase</HighlightedSpan>, and
@@ -131,9 +132,9 @@
         </div>
 
         <div class="bg-(--ui-bg) p-3 grid gap-2">
-          <span class="uppercase">Desktop Development</span>
+          <span class="text-(--ui-primary) uppercase">Desktop Development</span>
 
-          <p class="text-(--ui-text-muted) text-xs indent-5">
+          <p class="text-xs indent-5">
             I build desktop apps using
             <HighlightedSpan>C# WinForms</HighlightedSpan>,
             <HighlightedSpan>VB.NET WinForms</HighlightedSpan> (both with
@@ -144,9 +145,11 @@
         </div>
 
         <div class="bg-(--ui-bg) p-3 grid gap-2">
-          <span class="uppercase">Database and Hosting</span>
+          <span class="text-(--ui-primary) uppercase"
+            >Database and Hosting</span
+          >
 
-          <p class="text-(--ui-text-muted) text-xs indent-5">
+          <p class="text-xs indent-5">
             I have experience using
             <HighlightedSpan>MS SQL Server</HighlightedSpan> at work, as well as
             <HighlightedSpan>PostgreSQL</HighlightedSpan>,
@@ -160,9 +163,9 @@
         </div>
 
         <div class="bg-(--ui-bg) p-3 grid gap-2">
-          <span class="uppercase">Productivity</span>
+          <span class="text-(--ui-primary) uppercase">Productivity</span>
 
-          <p class="text-(--ui-text-muted) text-xs indent-5">
+          <p class="text-xs indent-5">
             I use <HighlightedSpan>Figma</HighlightedSpan> for creating web
             designs, mockups, and wireframes. For coding, I use
             <HighlightedSpan>VS Code</HighlightedSpan> and
@@ -183,8 +186,8 @@
   animation-direction: reverse;
 }
 
-.animate-marquee-vertical {
-  animation: marquee-vertical var(--duration) linear infinite;
+.animate-marquee-reverse {
+  animation: marquee-reverse var(--duration) linear infinite;
 }
 
 @keyframes marquee {
@@ -196,12 +199,12 @@
   }
 }
 
-@keyframes marquee-vertical {
+@keyframes marquee-reverse {
   from {
-    transform: translateY(0);
+    transform: translateX(0);
   }
   to {
-    transform: translateY(calc(-100% - var(--gap)));
+    transform: translateX(calc(-100% - var(--gap)));
   }
 }
 </style>
