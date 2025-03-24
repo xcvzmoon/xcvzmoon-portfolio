@@ -101,25 +101,36 @@
       <div class="bg-(--ui-bg-elevated) w-[95%] rounded-md p-4 space-y-4">
         <UButton variant="link" label="Learning Management System" />
 
-        <p class="text-xs">Created through freelancing</p>
+        <p class="text-xs">
+          Created through freelancing using Vue, Laravel, MySQL, and Firestore
+          for storing assets
+        </p>
       </div>
 
       <div class="bg-(--ui-bg-elevated) w-[95%] rounded-md p-4 space-y-4">
         <UButton variant="link" label="Appointment System" />
 
-        <p class="text-xs">Created through both freelancing and work</p>
+        <p class="text-xs">
+          Created through both freelancing and work. Used Vue, Nuxt, and Blazor
+        </p>
       </div>
 
       <div class="bg-(--ui-bg-elevated) w-[95%] rounded-md p-4 space-y-4">
         <UButton variant="link" label="Electronic Health Record" />
 
-        <p class="text-xs">Created through work</p>
+        <p class="text-xs">
+          Created as part of work projects, utilizing Blazor, Vue, ASP.NET, and
+          MS SQL Server, and hosted on IIS
+        </p>
       </div>
 
       <div class="bg-(--ui-bg-elevated) w-[95%] rounded-md p-4 space-y-4">
         <UButton variant="link" label="Quotator and Insurance System" />
 
-        <p class="text-xs">Created through work</p>
+        <p class="text-xs">
+          Created as part of work projects, utilizing Angular, ASP.NET, and MS
+          SQL Server, and hosted on IIS
+        </p>
       </div>
     </div>
   </section>
