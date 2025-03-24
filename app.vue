@@ -23,10 +23,11 @@ useHead({
 <template>
   <UApp>
     <div class="bg-(--ui-bg) text-(--ui-text) min-h-svh font-mono">
-      <template v-if="true">
+      <template v-if="$device.isMobile">
         <AppHeader />
         <HeroSection />
         <SkillsSection />
+        <ProjectsSection />
       </template>
     </div>
   </UApp>
