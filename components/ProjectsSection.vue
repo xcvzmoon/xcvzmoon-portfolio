@@ -99,41 +99,25 @@
       </div>
 
       <div class="bg-(--ui-bg-elevated) w-[95%] rounded-md p-4 space-y-4">
-        <UButton
-          variant="link"
-          label="Learning Management System"
-          icon="i-lucide-external-link"
-        />
+        <UButton variant="link" label="Learning Management System" />
 
         <p class="text-xs">Created through freelancing</p>
       </div>
 
       <div class="bg-(--ui-bg-elevated) w-[95%] rounded-md p-4 space-y-4">
-        <UButton
-          variant="link"
-          label="Appointment System"
-          icon="i-lucide-external-link"
-        />
+        <UButton variant="link" label="Appointment System" />
 
         <p class="text-xs">Created through both freelancing and work</p>
       </div>
 
       <div class="bg-(--ui-bg-elevated) w-[95%] rounded-md p-4 space-y-4">
-        <UButton
-          variant="link"
-          label="Electronic Health Record"
-          icon="i-lucide-external-link"
-        />
+        <UButton variant="link" label="Electronic Health Record" />
 
         <p class="text-xs">Created through work</p>
       </div>
 
       <div class="bg-(--ui-bg-elevated) w-[95%] rounded-md p-4 space-y-4">
-        <UButton
-          variant="link"
-          label="Quotator and Insurance System"
-          icon="i-lucide-external-link"
-        />
+        <UButton variant="link" label="Quotator and Insurance System" />
 
         <p class="text-xs">Created through work</p>
       </div>
