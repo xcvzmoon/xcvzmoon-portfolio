@@ -1,6 +1,10 @@
 <template>
   <section class="my-16 flex flex-col items-center justify-center">
-    <p class="uppercase font-bold text-4xl">Skills</p>
+    <p
+      class="bg-linear-to-bl from-amber-500 to-fuchsia-500 text-zinc-100 rounded-md px-4 py-2 uppercase font-bold text-4xl dark:from-amber-400 dark:to-fuchsia-400 dark:text-zinc-900"
+    >
+      Skills
+    </p>
 
     <p
       class="text-(--ui-text-muted) px-2 py-4 text-center text-sm text-balance"
@@ -95,9 +99,9 @@
         class="border-(--ui-border) bg-(--ui-border) border-x w-[90%] mx-auto flex flex-col gap-px"
       >
         <div class="bg-(--ui-bg) p-3 grid gap-2">
-          <span class="uppercase">Web Development</span>
+          <span class="text-(--ui-primary) uppercase">Web Development</span>
 
-          <p class="text-(--ui-text-muted) text-xs indent-5">
+          <p class="text-xs indent-5">
             I personally like
             <HighlightedSpan>javascript</HighlightedSpan>
             because I tend to work more on frontend tasks than backend, and it
@@ -105,7 +109,7 @@
             happens
           </p>
 
-          <p class="text-(--ui-text-muted) text-xs indent-5">
+          <p class="text-xs indent-5">
             I love using <HighlightedSpan>vue</HighlightedSpan> and
             <HighlightedSpan>nuxt</HighlightedSpan>
             and its my most used framework. I can also use
@@ -115,7 +119,7 @@
             for the frontend development
           </p>
 
-          <p class="text-(--ui-text-muted) text-xs indent-5">
+          <p class="text-xs indent-5">
             I typically use BaaS platforms like
             <HighlightedSpan>Firebase</HighlightedSpan>,
             <HighlightedSpan>Supabase</HighlightedSpan>, and
@@ -128,9 +132,9 @@
         </div>
 
         <div class="bg-(--ui-bg) p-3 grid gap-2">
-          <span class="uppercase">Desktop Development</span>
+          <span class="text-(--ui-primary) uppercase">Desktop Development</span>
 
-          <p class="text-(--ui-text-muted) text-xs indent-5">
+          <p class="text-xs indent-5">
             I build desktop apps using
             <HighlightedSpan>C# WinForms</HighlightedSpan>,
             <HighlightedSpan>VB.NET WinForms</HighlightedSpan> (both with
@@ -141,9 +145,11 @@
         </div>
 
         <div class="bg-(--ui-bg) p-3 grid gap-2">
-          <span class="uppercase">Database and Hosting</span>
+          <span class="text-(--ui-primary) uppercase"
+            >Database and Hosting</span
+          >
 
-          <p class="text-(--ui-text-muted) text-xs indent-5">
+          <p class="text-xs indent-5">
             I have experience using
             <HighlightedSpan>MS SQL Server</HighlightedSpan> at work, as well as
             <HighlightedSpan>PostgreSQL</HighlightedSpan>,
@@ -157,9 +163,9 @@
         </div>
 
         <div class="bg-(--ui-bg) p-3 grid gap-2">
-          <span class="uppercase">Productivity</span>
+          <span class="text-(--ui-primary) uppercase">Productivity</span>
 
-          <p class="text-(--ui-text-muted) text-xs indent-5">
+          <p class="text-xs indent-5">
             I use <HighlightedSpan>Figma</HighlightedSpan> for creating web
             designs, mockups, and wireframes. For coding, I use
             <HighlightedSpan>VS Code</HighlightedSpan> and
