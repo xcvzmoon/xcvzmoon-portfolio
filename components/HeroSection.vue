@@ -1,54 +1,70 @@
 <!-- eslint-disable vue/html-self-closing -->
 <template>
-  <section class="my-4 flex flex-col items-center gap-4">
-    <h1 class="uppercase text-3xl font-bold">Mon Albert Gamil</h1>
+  <section class="mt-4">
+    <UContainer class="flex flex-col items-center gap-4">
+      <h1 class="text-(--ui-primary) uppercase text-3xl text-center font-bold">
+        Mon Albert Gamil
+      </h1>
 
-    <div class="size-72 grid place-items-center relative">
-      <div
-        class="border-(--ui-border-accented) bg-(--ui-bg-muted) border rounded-full p-1 z-1"
-      >
-        <img
-          src="~/assets/img/gamil-mon-albert.webp"
-          alt="Mon Albert Gamil"
-          width="200"
-          height="200"
-          class="rounded-full"
-        />
+      <div class="size-72 grid place-items-center relative">
+        <div
+          class="border-(--ui-border-accented) bg-(--ui-bg-muted) border rounded-full p-1 z-1"
+        >
+          <img
+            src="~/assets/img/gamil-mon-albert.webp"
+            alt="Mon Albert Gamil"
+            width="200"
+            height="200"
+            class="rounded-full"
+          />
+        </div>
+
+        <div class="rounded-full size-54 absolute orb" />
       </div>
 
-      <div class="rounded-full size-54 absolute orb" />
-    </div>
+      <div class="text-center">
+        <div class="text-xs mb-3 flex flex-col items-center gap-1">
+          <UBadge
+            color="neutral"
+            variant="soft"
+            label="Full Stack Developer"
+            as="h3"
+          />
 
-    <div class="text-center">
-      <div class="text-xs mb-3 flex flex-col items-center gap-1">
-        <UBadge color="neutral" variant="soft" label="Full Stack Developer" />
-        <UBadge color="neutral" variant="soft" label="UI/UX Designer" />
-        <UBadge color="neutral" variant="soft" label="Web Artisan" />
+          <UBadge
+            color="neutral"
+            variant="soft"
+            label="UI/UX Designer"
+            as="h3"
+          />
+
+          <UBadge color="neutral" variant="soft" label="Web Artisan" as="h3" />
+        </div>
+
+        <h4 class="text-xs text-balance">
+          I'm a passionate developer who
+          <span class="text-rose-500 dark:text-rose-400">
+            loves creating great work
+          </span>
+          and
+          <span class="text-sky-500 dark:text-sky-400">
+            building a collaborative environment
+          </span>
+          where people can
+          <span class="text-amber-500 dark:text-amber-400">
+            grow, learn, and innovate together
+          </span>
+        </h4>
       </div>
 
-      <h3 class="text-xs text-balance">
-        I'm a passionate developer who
-        <span class="text-rose-500 dark:text-rose-400">
-          loves creating great work
-        </span>
-        and
-        <span class="text-sky-500 dark:text-sky-400">
-          building a collaborative environment
-        </span>
-        where people can
-        <span class="text-amber-500 dark:text-amber-400">
-          grow, learn, and innovate together
-        </span>
-      </h3>
-    </div>
-
-    <UButton
-      to="https://fzdxu6armo.ufs.sh/f/bxc3epjzeNdB65UecZiqwWEuHy4bNjg7kPVmoYQztSZsrLJF"
-      target="_blank"
-      label="Download my CV"
-      icon="i-lucide-download"
-      class="mt-3"
-    />
+      <UButton
+        to="https://fzdxu6armo.ufs.sh/f/bxc3epjzeNdB65UecZiqwWEuHy4bNjg7kPVmoYQztSZsrLJF"
+        target="_blank"
+        label="Download my CV"
+        icon="i-lucide-download"
+        class="mt-3"
+      />
+    </UContainer>
   </section>
 </template>
 
