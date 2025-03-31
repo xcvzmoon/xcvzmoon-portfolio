@@ -97,7 +97,7 @@ const PROJECTS = [
       </p>
 
       <p
-        class="text-(--ui-text-muted) px-2 py-4 text-center text-sm text-balance"
+        class="text-(--ui-text-muted) px-2 py-4 text-center text-sm text-balance md:text-lg"
       >
         Here are some of the projects that I have developed and collaborated on
         with my co-developers

@@ -3,7 +3,7 @@
   <section class="mt-4">
     <UContainer class="flex flex-col items-center gap-4">
       <h1
-        class="text-(--ui-primary) uppercase text-3xl text-center font-bold sm:text-4xl"
+        class="text-(--ui-primary) uppercase text-3xl text-center font-bold sm:text-4xl md:text-5xl"
       >
         Mon Albert Gamil
       </h1>
@@ -45,7 +45,7 @@
           <UBadge color="neutral" variant="soft" label="Web Artisan" as="h3" />
         </div>
 
-        <h4 class="text-xs text-balance sm:text-sm">
+        <h4 class="text-xs text-balance sm:text-sm md:text-base">
           I'm a passionate developer who
           <span class="text-rose-500 dark:text-rose-400">
             loves creating great work

@@ -8,7 +8,7 @@
       </p>
 
       <p
-        class="text-(--ui-text-muted) px-2 py-4 text-center text-sm text-balance"
+        class="text-(--ui-text-muted) px-2 py-4 text-center text-sm text-balance md:text-lg"
       >
         Exploring new technologies and finding out how they work is a piece of
         art. For me, expanding my knowledge and skills is a great investment
@@ -105,7 +105,7 @@
               <p class="text-(--ui-primary) uppercase">Web Development</p>
             </div>
 
-            <p class="text-(--ui-text-muted) text-xs indent-5">
+            <p class="text-(--ui-text-muted) text-xs indent-5 md:text-base">
               I personally like
               <HighlightedSpan>javascript</HighlightedSpan> and/or
               <HighlightedSpan>typescript</HighlightedSpan>
@@ -114,7 +114,7 @@
               happens
             </p>
 
-            <p class="text-(--ui-text-muted) text-xs indent-5">
+            <p class="text-(--ui-text-muted) text-xs indent-5 md:text-base">
               I love using <HighlightedSpan>vue</HighlightedSpan> and
               <HighlightedSpan>nuxt</HighlightedSpan>
               and its my most used framework. I can also use
@@ -124,7 +124,7 @@
               for the frontend development
             </p>
 
-            <p class="text-(--ui-text-muted) text-xs indent-5">
+            <p class="text-(--ui-text-muted) text-xs indent-5 md:text-base">
               I typically use BaaS platforms like
               <HighlightedSpan>Firebase</HighlightedSpan>,
               <HighlightedSpan>Supabase</HighlightedSpan>, and
@@ -142,7 +142,7 @@
               <p class="text-(--ui-primary) uppercase">Desktop Development</p>
             </div>
 
-            <p class="text-(--ui-text-muted) text-xs indent-5">
+            <p class="text-(--ui-text-muted) text-xs indent-5 md:text-base">
               I build desktop apps using
               <HighlightedSpan>C# WinForms</HighlightedSpan>,
               <HighlightedSpan>VB.NET WinForms</HighlightedSpan> (both with
@@ -158,7 +158,7 @@
               <p class="text-(--ui-primary) uppercase">Database and Hosting</p>
             </div>
 
-            <p class="text-(--ui-text-muted) text-xs indent-5">
+            <p class="text-(--ui-text-muted) text-xs indent-5 md:text-base">
               I have experience using
               <HighlightedSpan>MS SQL Server</HighlightedSpan> at work, as well
               as <HighlightedSpan>PostgreSQL</HighlightedSpan>,
@@ -177,7 +177,7 @@
               <p class="text-(--ui-primary) uppercase">Productivity</p>
             </div>
 
-            <p class="text-(--ui-text-muted) text-xs indent-5">
+            <p class="text-(--ui-text-muted) text-xs indent-5 md:text-base">
               I use <HighlightedSpan>Figma</HighlightedSpan> for creating web
               designs, mockups, and wireframes. For coding, I use
               <HighlightedSpan>VS Code</HighlightedSpan> and
