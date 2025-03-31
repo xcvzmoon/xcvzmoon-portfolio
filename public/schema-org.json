@@ -1,0 +1,12 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@id": "https://xcvzmoon.vercel.app/",
+        "@type": "WebSite",
+        "description": "I'm a passionate developer who loves creating great work and building a collaborative environment where people can grow, learn, and innovate together.",
+        "name": "XCVZMOON | Mon Albert Gamil - Portfolio",
+        "url": "https://xcvzmoon.vercel.app"
+      }
+    ]
+  }
