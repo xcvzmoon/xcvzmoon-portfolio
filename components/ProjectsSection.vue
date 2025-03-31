@@ -97,13 +97,15 @@ const PROJECTS = [
       </p>
 
       <p
-        class="text-(--ui-text-muted) px-2 py-4 text-center text-sm text-balance"
+        class="text-(--ui-text-muted) px-2 py-4 text-center text-sm text-balance md:text-lg"
       >
         Here are some of the projects that I have developed and collaborated on
         with my co-developers
       </p>
 
-      <div class="flex flex-col items-center justify-center gap-4">
+      <div
+        class="flex flex-col items-center justify-center gap-4 sm:grid sm:grid-cols-2 lg:grid-cols-3"
+      >
         <ProjectCard
           v-for="{ title, to, description, stack } in PROJECTS"
           :key="to"

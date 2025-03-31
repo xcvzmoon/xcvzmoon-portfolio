@@ -1,75 +1,48 @@
-# Nuxt Minimal Starter
+# XCVZMOON | Mon Albert Gamil - Portfolio
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Overview
 
-## Setup
+Welcome to my portfolio repository! This project showcases my skills, projects, and professional experience in web development. Feel free to explore the various sections to learn more about my work and capabilities.
 
-Make sure to install dependencies:
+## Table of Contents
 
-```bash
-# npm
-npm install
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Projects Showcase](#projects-showcase)
+- [Contact Information](#contact-information)
+- [License](#license)
 
-# pnpm
-pnpm install
+## Technologies Used
 
-# yarn
-yarn install
+- Frontend: Nuxt, Vue, TypeScript
+- Deployment: Vercel
 
-# bun
-bun install
-```
+## Features
 
-## Development Server
+- Interactive UI with responsive design
+- Project showcase with detailed descriptions
+- Skills and experience section
+- Resume download option
 
-Start the development server on `http://localhost:3000`:
+## Projects Showcase
 
-```bash
-# npm
-npm run dev
+The portfolio includes various projects demonstrating my skills in:
 
-# pnpm
-pnpm dev
+- Web application development
+- Database design and integration
+- API development
+- UI/UX design
+- Full-stack development
 
-# yarn
-yarn dev
+Each project includes:
 
-# bun
-bun run dev
-```
+- Description
+- Technologies used
+- My role
+- Links to live demo and source code
 
-## Production
+## Contact Information
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- **Email**: mrgamilmonalbert@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/xcvzmoon
+- **GitHub**: https://github.com/xcvzmoon
