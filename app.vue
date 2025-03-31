@@ -33,7 +33,10 @@ useHead({
     // Open Graph / Facebook
     { property: "og:type", content: "website" },
     { property: "og:url", content: "https://xcvzmoon.vercel.app/" },
-    { property: "og:site_name", content: "XCVZMOON | Mon Albert Gamil - Portfolio" },
+    {
+      property: "og:site_name",
+      content: "XCVZMOON | Mon Albert Gamil - Portfolio",
+    },
     {
       property: "og:title",
       content: "XCVZMOON | Mon Albert Gamil - Portfolio",
@@ -69,6 +72,10 @@ useHead({
       property: "twitter:image",
       content:
         "https://xcvzmoon.vercel.app/_nuxt/gamil-mon-albert.BH2bm-ef.webp",
+    },
+    {
+      name: "google-site-verification",
+      content: "Idw95IjF7bAnkM9f-3bR_UdsdUmILpbX3FWb1EZnJoo",
     },
   ],
 });
