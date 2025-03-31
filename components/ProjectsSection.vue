@@ -103,7 +103,9 @@ const PROJECTS = [
         with my co-developers
       </p>
 
-      <div class="flex flex-col items-center justify-center gap-4">
+      <div
+        class="flex flex-col items-center justify-center gap-4 sm:grid sm:grid-cols-2"
+      >
         <ProjectCard
           v-for="{ title, to, description, stack } in PROJECTS"
           :key="to"

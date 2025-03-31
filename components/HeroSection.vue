@@ -2,7 +2,9 @@
 <template>
   <section class="mt-4">
     <UContainer class="flex flex-col items-center gap-4">
-      <h1 class="text-(--ui-primary) uppercase text-3xl text-center font-bold">
+      <h1
+        class="text-(--ui-primary) uppercase text-3xl text-center font-bold sm:text-4xl"
+      >
         Mon Albert Gamil
       </h1>
 
@@ -23,7 +25,9 @@
       </div>
 
       <div class="text-center">
-        <div class="text-xs mb-3 flex flex-col items-center gap-1">
+        <div
+          class="mb-3 flex flex-col items-center gap-1 sm:flex-row sm:justify-center"
+        >
           <UBadge
             color="neutral"
             variant="soft"
@@ -41,7 +45,7 @@
           <UBadge color="neutral" variant="soft" label="Web Artisan" as="h3" />
         </div>
 
-        <h4 class="text-xs text-balance">
+        <h4 class="text-xs text-balance sm:text-sm">
           I'm a passionate developer who
           <span class="text-rose-500 dark:text-rose-400">
             loves creating great work
