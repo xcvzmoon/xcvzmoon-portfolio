@@ -62,7 +62,7 @@
       </div>
 
       <UButton
-        to="https://fzdxu6armo.ufs.sh/f/bxc3epjzeNdB65UecZiqwWEuHy4bNjg7kPVmoYQztSZsrLJF"
+        to="https://fzdxu6armo.ufs.sh/f/bxc3epjzeNdBbR7OvTjzeNdB1jW35RxOkULYo2pSPGyZ9luX"
         target="_blank"
         label="Download my CV"
         icon="i-lucide-download"
